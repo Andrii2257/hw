@@ -11,7 +11,7 @@ import java.util.Scanner;
  * Hello world!
  */
 public class App {
-    private Scanner scanner;
+    private final Scanner scanner;
 
     private static final Logger LOGGER = Logger.getLogger(App.class);
     public App() {
